@@ -1,0 +1,129 @@
+﻿Every "gałąź" is-part-of a "roślina".
+Every "liść" is-part-of a "roślina".
+Every "pąk" is-part-of a "roślina".
+
+Every "pies" likes a "karma".
+Every "pies" eats nothing-but "trawa".
+Every "człowiek" eats nothing-but "mięso".
+Every "ptak" lays nothing-but "jajko".
+Every "chłopiec" is-a "dziecko".
+Every "dziewczynka" is-a "dziecko".
+Every "dziecko" is-a "człowiek".
+Every "dziecko" likes a "lizak".
+Every "dziecko" has a "matka".
+Every "dziecko" has a "ojciec".
+Every "człowiek" is-a nothing-but "rodzic".
+
+Every "kot" likes a "mleko".
+Every "kot" is-a "ssak".
+Every "pies" is-a "ssak".
+Every "człowiek" likes a "owoc".
+Every "człowiek" likes a "warzywo".
+
+Every "kot" eats nothing-but "ryba".
+Every "ptak" eats nothing-but "robak".
+Every "kot" meows-at nothing-but "mysz".
+Every "pies" barks-at nothing-but "intruz".
+Every "roślina" absorbs nothing-but "woda".
+
+Every "dziecko" likes nothing-but thing that is a "lizak" and-or is a "lód" and-or is a "cukierek" and-or is a "batonik".
+Every "kot" likes nothing-but thing that is a "mleko" and-or is a "kiełbaska" and-or is a "karma".
+Every "pies" can-do nothing-but thing that is a "szczekanie" and-or is a "wycie" and-or is a "gryzienie".
+Every "ptak" dislikes nothing-but thing that is a "robak" and-or is a "larwa" and-or is a "trawa".
+Every "pies" does nothing-but thing that is a "szczekanie" and-or is a "spanie" and-or is a "jedzenie" and-or is a "pilnowanie".
+Every "pracownik" does nothing-but thing that is a "zakres-obowiązków".
+Every "uczeń" owns nothing-but thing that is a "zeszyt" and-or is a "książka" and-or is a "długopis" and-or is a "ołówek" and-or is a "gumka" and-or is a "plecak".
+
+Every "dziecko" likes a thing that is a "czekolada" and-or is a "żelek" and-or is a "wata-cukrowa".
+Every "uczeń" uses a thing that is a "długopis" and-or is a "zeszyt" and-or is a "podręcznik".
+Every "nauczyciel" gives a thing that is a "sprawdzian" and-or is a "kartkówka" and-or is a "zadanie".
+Every "pies" finds a thing that is a "kość" and-or is a "patyk".
+Every "ptak" builds a thing that is a "gniazdo" and-or is a "schronienie".
+
+Every "dziecko" eats nothing-but thing that is a "lizak" and-or is a "czekolada" and-or is a "popcorn".
+Every "uczeń" carries nothing-but thing that is a "plecak" and-or is a "zeszyt" and-or is a "piórnik".
+Every "nauczyciel" grades nothing-but thing that is a "sprawdzian" and-or is a "kartkówka".
+Every "pies" plays-with nothing-but thing that is a "patyk" and-or is a "piłka" and-or is a "kość".
+Every "ptak" drinks nothing-but thing that is a "woda".
+
+Every "jajko" is laid by a "kura" and is laid by a "kaczka" and is laid by a "gęś".
+Every "karma" is eaten by a "pies" and is eaten by a "kot" and is eaten by a "chomik".
+
+Every "komputer" is used by a "uczeń" and is used by a "nauczyciel".
+Every "piłka" is played-with by a "pies" and is played-with by a "dziecko" and is played-with by a "sportowiec".
+Every "książka" is read by a "uczeń" and is read by a "nauczyciel" and is read by a "bibliotekarz".
+Every "rower" is repaired by a "mechanik" and is repaired by a "tata" and is repaired by a "dziadek".
+Every "budynek" is designed by a "architekt" and is designed by a "inżynier" and is designed by a "projektant".
+
+Every "pies" has a "ogon".
+Every "pies" has a "część" that is not a "ogon".
+Every "rower" has something that is a "część" and is a "koło" and has something that is a "część" and is a "kierownica" and has something that is a "część" and is a "siodełko".
+Every "rower" has a "część" that is not a "koło" and has a "część" that is not a "kierownica" and has a "część" that is not a "siodełko".
+
+Every "człowiek" has something that is a "część" and is a "głowa" and has something that is a "część" and is a "noga" and has something that is a "część" and is a "ręka".
+Every "samochód" has something that is a "część" and is a "silnik" and has something that is a "część" and is a "koło" and has something that is a "część" and is a "kierownica".
+Every "komputer" has something that is a "komponent" and is a "procesor" and has something that is a "komponent" and is a "pamięć" and has something that is a "komponent" and is a "karta-graficzna".
+Every "dom" has a "pomieszczenie" that is a "kuchnia" and has a "pomieszczenie" that is a "salon" and has a "pomieszczenie" that is not a "kuchnia" and has a "pomieszczenie" that is not a "salon".
+Every "komputer" has a "komponent" that is not a "procesor" and has a "komponent" that is not a "pamięć" and has a "komponent" that is not a "karta-graficzna".
+
+Something is a "chłopiec" if-and-only-if-it is a "młody-meżczyzna".
+Something is a "pies" if-and-only-if-it is a "kundel".
+Something is a "uczeń" if-and-only-if-it is a "wychowanek".
+Something is a "student" if-and-only-if-it is a "uczeń".
+Something is a "dziadek" if-and-only-if-it is a "dorosły" and is a "stary" and is a "siwy" and is a "płeć-męska".
+Something is a "wrona" if-and-only-if-it is a "ptak" and is a "latające" and is a "czarne".
+Something is a "roślinożerca" if-and-only-if-it eats nothing-but "roślina" and eats nothing-but "część-rośliny".
+Something is a "programista" if-and-only-if-it does nothing-but "pisanie-programów" and does nothing-but "testowanie-programów".
+
+Something is a "matka" if-and-only-if-it is a "kobieta" and is a "rodzic".
+Something is a "ojciec" if-and-only-if-it is a "mężczyzna" and is a "rodzic".   
+Something is a "rower" if-and-only-if-it has a "koło" and has a "kierownica".
+Something is a "mięsożerca" if-and-only-if-it eats nothing-but "mięso" and eats nothing-but "część-zwierzęcia".
+Something is a "artysta" if-and-only-if-it does nothing-but "malowanie" and does nothing-but "rysowanie" and does nothing-but "tworzenie-sztuki".
+
+Every "roślinożerca" is not a "mięsożerca".
+No "roślinożerca" is a "mięsożerca".
+
+Every "człowiek" is not a "zwierzę".
+No "człowiek" is a "zwierzę".
+Every "ryba" is not a "gad".
+No "ryba" is a "gad".
+Every "pies" is not a "ptak".
+No "pies" is a "ptak".
+Every "mężczyzna" is not a "kobieta".
+No "mężczyzna" is a "kobieta".
+Every "jabłko" is not a "gruszka".
+No "jabłko" is a "gruszka".
+
+Every "kot" is not a "pies".
+No "kot" is a "pies".
+Every "ptak" is not a "ssak".
+No "ptak" is a "ssak".
+Every "nauczyciel" is not a "uczeń".
+No "nauczyciel" is a "uczeń".
+Every "samochód" is not a "rower".
+No "samochód" is a "rower".
+Every "kobieta" is not a "mężczyzna".
+No "kobieta" is a "mężczyzna".
+Every "jabłko" is not a "banan".
+No "jabłko" is a "banan".
+Every "kot" is not a "ptak".
+No "kot" is a "ptak".
+Every "pies" is not a "kot".
+No "pies" is a "kot".
+Every "dzień" is not a "noc".
+No "dzień" is a "noc".
+Every "noc" is not a "dzień".
+No "noc" is a "dzień".
+
+Something is a "człowiek" if-and-only-if-it-either is a "dziecko", is a "starszy-mężczyzna", is a "mężczyzna-w-średnim-wieku" or is a "młody-mężczyzna".
+Something is a "jabłko" if-and-only-if-it-either is a "papierówka" or is a "reneta".
+Something is a "grzyb" if-and-only-if-it-either is a "borowik", is a "muchomor", is a "kozak", is a "podgrzybek" or is a "pieczarka".
+Something is a "informatyk" if-and-only-if-it-either is a "programista", is a "sieciowiec" or is a "systemowiec".
+Something is a "krewny" if-and-only-if-it-either is a "ojciec", is a "matka", is a "syn", is a "córka", is a "brat", is a "siostra", is a "dziadek", is a "babka", is a "kuzyn", is a "kuzynka", is a "ciotka" or is a "wujek".
+
+Something is a "owoc" if-and-only-if-it-either is a "jabłko", is a "gruszka", is a "banan" or is a "śliwka".
+Something is a "pojazd" if-and-only-if-it-either is a "samochód", is a "rower", is a "motocykl" or is a "autobus".
+Something is a "pomieszczenie" if-and-only-if-it-either is a "kuchnia", is a "łazienka", is a "salon" or is a "sypialnia".
+Something is a "nauczyciel" if-and-only-if-it-either is a "wykładowca", is a "korepetytor", is a "trener" or is a "mentor".
+Something is a "zabawka" if-and-only-if-it-either is a "lalka", is a "samochodzik", is a "klocki", is a "pluszak" or is a "gra-planszowa".

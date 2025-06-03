@@ -1,0 +1,268 @@
+@prefix : <http://semantic.cs.put.poznan.pl/ontologie/pizza.owl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://semantic.cs.put.poznan.pl/ontologie/pizza.owl/> .
+
+<http://semantic.cs.put.poznan.pl/ontologie/pizza.owl> rdf:type owl:Ontology ;
+                                                        rdfs:comment "Ontologia opisującą różne rodzaje pizzy." .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#maCiasto
+:maCiasto rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :maCzęść ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :Pizza ;
+          rdfs:range :Ciasto .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#maCzęść
+:maCzęść rdf:type owl:ObjectProperty ,
+                  owl:TransitiveProperty .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#maDodatek
+:maDodatek rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :maCzęść ;
+           rdfs:domain :Pizza ;
+           rdfs:range :Dodatek .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Cebula
+:Cebula rdf:type owl:Class ;
+        rdfs:subClassOf :DodatekWarzywny .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Ciasto
+:Ciasto rdf:type owl:Class .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#CiastoCienkie
+:CiastoCienkie rdf:type owl:Class ;
+               rdfs:subClassOf :Ciasto ;
+               owl:disjointWith :CiastoGrube .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#CiastoGrube
+:CiastoGrube rdf:type owl:Class ;
+             rdfs:subClassOf :Ciasto .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Dodatek
+:Dodatek rdf:type owl:Class .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#DodatekMięsny
+:DodatekMięsny rdf:type owl:Class ;
+               rdfs:subClassOf :Dodatek .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#DodatekSerowy
+:DodatekSerowy rdf:type owl:Class ;
+               rdfs:subClassOf :Dodatek .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#DodatekWarzywny
+:DodatekWarzywny rdf:type owl:Class ;
+                 rdfs:subClassOf :Dodatek .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#KiełbasaPepperoni
+:KiełbasaPepperoni rdf:type owl:Class ;
+                   rdfs:subClassOf :DodatekMięsny .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Margherita
+:Margherita rdf:type owl:Class ;
+            rdfs:subClassOf :NazwanaPizza ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :maDodatek ;
+                              owl:someValuesFrom :Mozzarella
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :maDodatek ;
+                              owl:someValuesFrom :SosPomidorowy
+                            ] ;
+            rdfs:comment "Pizza, która ma dodatki: sos pomidorowy i mozzarella." .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Mozzarella
+:Mozzarella rdf:type owl:Class ;
+            rdfs:subClassOf :DodatekSerowy ;
+            owl:disjointWith :Parmesan .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#NazwanaPizza
+:NazwanaPizza rdf:type owl:Class ;
+              rdfs:subClassOf :Pizza .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Papryka
+:Papryka rdf:type owl:Class ;
+         rdfs:subClassOf :DodatekWarzywny .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#PaprykaChili
+:PaprykaChili rdf:type owl:Class ;
+              rdfs:subClassOf :Papryka ;
+              owl:disjointWith :PaprykaJalapeno .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#PaprykaJalapeno
+:PaprykaJalapeno rdf:type owl:Class ;
+                 rdfs:subClassOf :Papryka .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Parmesan
+:Parmesan rdf:type owl:Class ;
+          rdfs:subClassOf :DodatekSerowy .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Pepperoni
+:Pepperoni rdf:type owl:Class ;
+           rdfs:subClassOf :NazwanaPizza ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :maDodatek ;
+                             owl:someValuesFrom :KiełbasaPepperoni
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :maDodatek ;
+                             owl:someValuesFrom :Mozzarella
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :maDodatek ;
+                             owl:someValuesFrom :SosPomidorowy
+                           ] ;
+           rdfs:comment "Pizza, która ma dodatki: sos pomidorowy, mozzarella i kiełbasa pepperoni." .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#PikantnySosPomidorowy
+:PikantnySosPomidorowy rdf:type owl:Class ;
+                       rdfs:subClassOf :SosPomidorowy .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Pizza
+:Pizza rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :maCiasto ;
+                         owl:someValuesFrom :Ciasto
+                       ] .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#PizzaWegetariańska
+:PizzaWegetariańska rdf:type owl:Class ;
+                    owl:equivalentClass [ owl:intersectionOf ( :Pizza
+                                                               [ rdf:type owl:Class ;
+                                                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty :maDodatek ;
+                                                                                    owl:someValuesFrom :DodatekMięsny
+                                                                                  ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
+                    rdfs:subClassOf :Pizza .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#PizzaZMięsem
+:PizzaZMięsem rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( :Pizza
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :maDodatek ;
+                                                           owl:someValuesFrom :DodatekMięsny
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:subClassOf :Pizza .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Pomidor
+:Pomidor rdf:type owl:Class ;
+         rdfs:subClassOf :DodatekWarzywny .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Salami
+:Salami rdf:type owl:Class ;
+        rdfs:subClassOf :DodatekMięsny .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Sos
+:Sos rdf:type owl:Class ;
+     rdfs:subClassOf :Dodatek .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#SosPomidorowy
+:SosPomidorowy rdf:type owl:Class ;
+               rdfs:subClassOf :Sos .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Szynka
+:Szynka rdf:type owl:Class ;
+        rdfs:subClassOf :DodatekMięsny .
+
+
+###  http://semantic.cs.put.poznan.pl/ontologie/pizza.owl#Vesuvio
+:Vesuvio rdf:type owl:Class ;
+         rdfs:subClassOf :PizzaWegetariańska ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :maDodatek ;
+                           owl:someValuesFrom :Mozzarella
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :maDodatek ;
+                           owl:someValuesFrom :SosPomidorowy
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :maDodatek ;
+                           owl:someValuesFrom :Szynka
+                         ] .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Cebula
+                :Papryka
+                :Pomidor
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Ciasto
+                :Dodatek
+                :Pizza
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :DodatekMięsny
+                :DodatekSerowy
+                :DodatekWarzywny
+                :Sos
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :KiełbasaPepperoni
+                :Salami
+                :Szynka
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

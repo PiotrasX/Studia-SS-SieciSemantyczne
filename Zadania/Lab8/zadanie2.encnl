@@ -1,0 +1,27 @@
+﻿Every "gałąź" is-part-of a "roślina".
+Every "liść" is-part-of a "roślina".
+Every "pąk" is-part-of a "roślina".
+
+Every "pies" likes a "karma".
+Every "pies" eats nothing-but "trawa".
+Every "człowiek" eats nothing-but "mięso".
+Every "ptak" lays nothing-but "jajko".
+Every "chłopiec" is-a "dziecko".
+Every "dziewczynka" is-a "dziecko".
+Every "dziecko" is-a "człowiek".
+Every "dziecko" likes a "lizak".
+Every "dziecko" has a "matka".
+Every "dziecko" has a "ojciec".
+Every "człowiek" is-a nothing-but "rodzic".
+
+Every "kot" likes a "mleko".
+Every "kot" is-a "ssak".
+Every "pies" is-a "ssak".
+Every "człowiek" likes a "owoc".
+Every "człowiek" likes a "warzywo".
+
+Every "kot" eats nothing-but "ryba".
+Every "ptak" eats nothing-but "robak".
+Every "kot" meows-at nothing-but "mysz".
+Every "pies" barks-at nothing-but "intruz".
+Every "roślina" absorbs nothing-but "woda".

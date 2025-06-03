@@ -1,0 +1,145 @@
+﻿Every bakteria is organizm-zywy.
+Every protist is organizm-zywy.
+Every grzyb is organizm-zywy.
+Every roslina is organizm-zywy.
+Every zwierze is organizm-zywy.
+
+Every orzesek is protist.
+
+Every ssak is zwierze.
+Every ptak is zwierze.
+Every gad is zwierze.
+Every plaz is zwierze.
+Every ryba is zwierze.
+Every owad is zwierze.
+Every inne-zwierze is zwierze.
+
+Every owoc is roslina.
+
+Every pojedynczy is owoc.
+Every zbiorowy is owoc.
+Every owocostanowy is owoc.
+
+Every pekajacy is pojedynczy.
+Every niepekajacy is pojedynczy.
+
+Every mieszek is pekajacy.
+Every strak is pekajacy.
+Every torebka is pekajacy.
+
+Every kaczeniec is mieszek.
+Every groszek is strak.
+Every pekajaca is torebka.
+Every luszczyna is torebka.
+Every puszka is torebka.
+Every otworkowa is torebka.
+Every gozdzik is pekajaca.
+Every groczyca is luszczyna.
+Every lulek is puszka.
+Every mak is otworkowa.
+
+Every suche-niepekajacy is niepekajacy.
+Every miesiste-niepekajacy is niepekajacy.
+Every typu-jablko is niepekajacy.
+
+Every orzech is suche-niepekajacy.
+Every wlasciwy is orzech.
+Every orzesek is orzech.
+Every ziarniak is orzech.
+Every nielupka is orzech.
+Every dab is wlasciwy.
+Every kasztan is wlasciwy.
+Every gryka is orzesek.
+Every zyto is ziarniak.
+Every slonecznik is nielupka.
+Every rozlupnia is suche-niepekajacy.
+Every marchew is rozlupnia.
+Every rozpadajacy-sie is suche-niepekajacy.
+Every seradela is rozpadajacy-sie.
+
+Every pestkowiec is miesiste-niepekajacy.
+Every jagoda is miesiste-niepekajacy.
+Every wisnia is pestkowiec.
+Every czeresnia is pestkowiec.
+Every agrest is jagoda.
+Every banan is jagoda.
+
+Every jablon is typu-jablko.
+Every grusza is typu-jablko.
+
+Every wielopestkowiec is zbiorowy.
+Every wieloorzeszkowiec is zbiorowy.
+Every malina is wielopestkowiec.
+Every jezyna is wielopestkowiec.
+Every poziomka is wieloorzeszkowiec.
+Every truskawka is wieloorzeszkowiec.
+
+Every miesiste-owocostanowy is an owocostanowy.
+Every suche-owocostanowy is an owocostanowy.
+Every morwa is a miesiste-owocostanowy.
+Every ananas is a miesiste-owocostanowy.
+Every rzepien-lopianu is a suche-owocostanowy.
+
+Every owoc-jadalny is roslina.
+Every jablko is owoc-jadalny.
+
+Every odmiana-jesienna is jablko.
+Every odmiana-zimowa is jablko.
+Every odmiana-letnia is jablko.
+
+Every adams-pearmain is odmiana-jesienna.
+Every akane is odmiana-jesienna.
+Every alkmene is odmiana-jesienna.
+Every alwa is odmiana-jesienna.
+Every antonowka is odmiana-jesienna.
+Every arlet is odmiana-jesienna.
+Every delikates is odmiana-jesienna.
+Every elstar is odmiana-jesienna.
+Every fantazja is odmiana-jesienna.
+Every fiesta is odmiana-jesienna.
+Every koksa-pomaranczowa is odmiana-jesienna.
+Every kosztela is odmiana-jesienna.
+Every lobo is odmiana-jesienna.
+Every mcintosh is odmiana-jesienna.
+Every malinowka is odmiana-jesienna.
+Every paulared is odmiana-jesienna.
+Every rajka is odmiana-jesienna.
+Every reneta-landsberksa is odmiana-jesienna.
+Every rubin is odmiana-jesienna.
+Every rubinola is odmiana-jesienna.
+Every szampion is odmiana-jesienna.
+
+Every ananas-berzenick is odmiana-letnia.
+Every close is odmiana-letnia.
+Every delbarestivale is odmiana-letnia.
+Every discovery is odmiana-letnia.
+Every early-geneva is odmiana-letnia.
+Every golden-delicious is odmiana-letnia.
+Every james-grieve is odmiana-letnia.
+Every katja is odmiana-letnia.
+Every kronselska is odmiana-letnia.
+Every papierowka is odmiana-letnia.
+
+Every bankroft is odmiana-zimowa.
+Every boiken is odmiana-zimowa.
+Every boskoop is odmiana-zimowa.
+Every braeburn is odmiana-zimowa.
+Every cortland is odmiana-zimowa.
+Every florina is odmiana-zimowa.
+Every fuji is odmiana-zimowa.
+Every gala is odmiana-zimowa.
+Every gloster is odmiana-zimowa.
+Every goldstar is odmiana-zimowa.
+Every granny-smith is odmiana-zimowa.
+Every grochowka is odmiana-zimowa.
+Every idared is odmiana-zimowa.
+Every jonagold is odmiana-zimowa.
+Every ligol is odmiana-zimowa.
+Every macoun is odmiana-zimowa.
+Every melrose is odmiana-zimowa.
+Every pinova is odmiana-zimowa.
+Every priam is odmiana-zimowa.
+Every reneta-ananasowa is odmiana-zimowa.
+Every rubinette is odmiana-zimowa.
+Every spartan is odmiana-zimowa.
+Every topaz is odmiana-zimowa.

@@ -1,0 +1,16 @@
+﻿Every rower is pojazd-jednosladowy.
+Every rower is pojazd-napedzany-miesniami.
+Every rower is pojazd-ladowy.
+
+Every pojazd-jednosladowy is pojazd.
+Every pojazd-napedzany-miesniami is pojazd.
+Every pojazd-ladowy is pojazd.
+
+Every lancuch is-part-of a rower.
+Every kolo is-part-of a rower.
+Every kierownica is-part-of a rower.
+Every rama is-part-of a rower.
+Every siodelko is-part-of a rower.
+Every pedal is-part-of a rower.
+Every hamulec is-part-of a rower.
+Every dzwonek is-part-of a rower.

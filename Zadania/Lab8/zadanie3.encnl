@@ -1,0 +1,47 @@
+﻿Every "gałąź" is-part-of a "roślina".
+Every "liść" is-part-of a "roślina".
+Every "pąk" is-part-of a "roślina".
+
+Every "pies" likes a "karma".
+Every "pies" eats nothing-but "trawa".
+Every "człowiek" eats nothing-but "mięso".
+Every "ptak" lays nothing-but "jajko".
+Every "chłopiec" is-a "dziecko".
+Every "dziewczynka" is-a "dziecko".
+Every "dziecko" is-a "człowiek".
+Every "dziecko" likes a "lizak".
+Every "dziecko" has a "matka".
+Every "dziecko" has a "ojciec".
+Every "człowiek" is-a nothing-but "rodzic".
+
+Every "kot" likes a "mleko".
+Every "kot" is-a "ssak".
+Every "pies" is-a "ssak".
+Every "człowiek" likes a "owoc".
+Every "człowiek" likes a "warzywo".
+
+Every "kot" eats nothing-but "ryba".
+Every "ptak" eats nothing-but "robak".
+Every "kot" meows-at nothing-but "mysz".
+Every "pies" barks-at nothing-but "intruz".
+Every "roślina" absorbs nothing-but "woda".
+
+Every "dziecko" likes nothing-but thing that is a "lizak" and-or is a "lód" and-or is a "cukierek" and-or is a "batonik".
+Every "kot" likes nothing-but thing that is a "mleko" and-or is a "kiełbaska" and-or is a "karma".
+Every "pies" can-do nothing-but thing that is a "szczekanie" and-or is a "wycie" and-or is a "gryzienie".
+Every "ptak" dislikes nothing-but thing that is a "robak" and-or is a "larwa" and-or is a "trawa".
+Every "pies" does nothing-but thing that is a "szczekanie" and-or is a "spanie" and-or is a "jedzenie" and-or is a "pilnowanie".
+Every "pracownik" does nothing-but thing that is a "zakres-obowiązków".
+Every "uczeń" owns nothing-but thing that is a "zeszyt" and-or is a "książka" and-or is a "długopis" and-or is a "ołówek" and-or is a "gumka" and-or is a "plecak".
+
+Every "dziecko" likes a thing that is a "czekolada" and-or is a "żelek" and-or is a "wata-cukrowa".
+Every "uczeń" uses a thing that is a "długopis" and-or is a "zeszyt" and-or is a "podręcznik".
+Every "nauczyciel" gives a thing that is a "sprawdzian" and-or is a "kartkówka" and-or is a "zadanie".
+Every "pies" finds a thing that is a "kość" and-or is a "patyk".
+Every "ptak" builds a thing that is a "gniazdo" and-or is a "schronienie".
+
+Every "dziecko" eats nothing-but thing that is a "lizak" and-or is a "czekolada" and-or is a "popcorn".
+Every "uczeń" carries nothing-but thing that is a "plecak" and-or is a "zeszyt" and-or is a "piórnik".
+Every "nauczyciel" grades nothing-but thing that is a "sprawdzian" and-or is a "kartkówka".
+Every "pies" plays-with nothing-but thing that is a "patyk" and-or is a "piłka" and-or is a "kość".
+Every "ptak" drinks nothing-but thing that is a "woda".

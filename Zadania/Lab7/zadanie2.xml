@@ -1,0 +1,281 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://www.ontorion.com/ontologies/Ontology86b45c57990447e2b4a0f29329b13fdd#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" ontologyIRI="http://www.ontorion.com/ontologies/Ontology86b45c57990447e2b4a0f29329b13fdd#">
+  <Prefix name="" IRI="http://www.ontorion.com/ontologies/Ontology86b45c57990447e2b4a0f29329b13fdd#" />
+  <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#" />
+  <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
+  <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#" />
+  <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#" />
+  <SubClassOf>
+    <Class IRI="Bakteria" />
+    <Class IRI="OrganizmZywy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Protist" />
+    <Class IRI="OrganizmZywy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Grzyb" />
+    <Class IRI="OrganizmZywy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Roslina" />
+    <Class IRI="OrganizmZywy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Zwierze" />
+    <Class IRI="OrganizmZywy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Orzesek" />
+    <Class IRI="Protist" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Ssak" />
+    <Class IRI="Zwierze" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Ptak" />
+    <Class IRI="Zwierze" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Gad" />
+    <Class IRI="Zwierze" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Plaz" />
+    <Class IRI="Zwierze" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Ryba" />
+    <Class IRI="Zwierze" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Owad" />
+    <Class IRI="Zwierze" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="InneZwierze" />
+    <Class IRI="Zwierze" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Owoc" />
+    <Class IRI="Roslina" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Pojedynczy" />
+    <Class IRI="Owoc" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Zbiorowy" />
+    <Class IRI="Owoc" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Owocostanowy" />
+    <Class IRI="Owoc" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Pekajacy" />
+    <Class IRI="Pojedynczy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Niepekajacy" />
+    <Class IRI="Pojedynczy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Mieszek" />
+    <Class IRI="Pekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Strak" />
+    <Class IRI="Pekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Torebka" />
+    <Class IRI="Pekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Kaczeniec" />
+    <Class IRI="Mieszek" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Groszek" />
+    <Class IRI="Strak" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Pekajaca" />
+    <Class IRI="Torebka" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Luszczyna" />
+    <Class IRI="Torebka" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Puszka" />
+    <Class IRI="Torebka" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Otworkowa" />
+    <Class IRI="Torebka" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Gozdzik" />
+    <Class IRI="Pekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Groczyca" />
+    <Class IRI="Luszczyna" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Lulek" />
+    <Class IRI="Puszka" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Mak" />
+    <Class IRI="Otworkowa" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="SucheNiepekajacy" />
+    <Class IRI="Niepekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="MiesisteNiepekajacy" />
+    <Class IRI="Niepekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="TypuJablko" />
+    <Class IRI="Niepekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Orzech" />
+    <Class IRI="SucheNiepekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Wlasciwy" />
+    <Class IRI="Orzech" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Orzesek" />
+    <Class IRI="Orzech" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Ziarniak" />
+    <Class IRI="Orzech" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Nielupka" />
+    <Class IRI="Orzech" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Dab" />
+    <Class IRI="Wlasciwy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Kasztan" />
+    <Class IRI="Wlasciwy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Gryka" />
+    <Class IRI="Orzesek" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Zyto" />
+    <Class IRI="Ziarniak" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Slonecznik" />
+    <Class IRI="Nielupka" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Rozlupnia" />
+    <Class IRI="SucheNiepekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Marchew" />
+    <Class IRI="Rozlupnia" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="RozpadajacySie" />
+    <Class IRI="SucheNiepekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Seradela" />
+    <Class IRI="RozpadajacySie" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Pestkowiec" />
+    <Class IRI="MiesisteNiepekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Jagoda" />
+    <Class IRI="MiesisteNiepekajacy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Wisnia" />
+    <Class IRI="Pestkowiec" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Czeresnia" />
+    <Class IRI="Pestkowiec" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Agrest" />
+    <Class IRI="Jagoda" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Banan" />
+    <Class IRI="Jagoda" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Jablon" />
+    <Class IRI="TypuJablko" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Grusza" />
+    <Class IRI="TypuJablko" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Wielopestkowiec" />
+    <Class IRI="Zbiorowy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Wieloorzeszkowiec" />
+    <Class IRI="Zbiorowy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Malina" />
+    <Class IRI="Wielopestkowiec" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Jezyna" />
+    <Class IRI="Wielopestkowiec" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Poziomka" />
+    <Class IRI="Wieloorzeszkowiec" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Truskawka" />
+    <Class IRI="Wieloorzeszkowiec" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="MiesisteOwocostanowy" />
+    <Class IRI="Owocostanowy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="SucheOwocostanowy" />
+    <Class IRI="Owocostanowy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Morwa" />
+    <Class IRI="MiesisteOwocostanowy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="Ananas" />
+    <Class IRI="MiesisteOwocostanowy" />
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="RzepienLopianu" />
+    <Class IRI="SucheOwocostanowy" />
+  </SubClassOf>
+</Ontology>
+<!--Generated by Cognitum FluentEditor2015, a part of Ontorion(TM) Knowledge Management Framework, (with support of OwlApi)-->

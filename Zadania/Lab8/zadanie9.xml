@@ -1,0 +1,1190 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://www.ontorion.com/ontologies/Ontologydd20039a69c6407cb26e5bb181f0d8d9#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" ontologyIRI="http://www.ontorion.com/ontologies/Ontologydd20039a69c6407cb26e5bb181f0d8d9#">
+  <Prefix name="" IRI="http://www.ontorion.com/ontologies/Ontologydd20039a69c6407cb26e5bb181f0d8d9#" />
+  <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#" />
+  <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
+  <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#" />
+  <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#" />
+  <SubClassOf>
+    <Class IRI="gałąź" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="isPartOf" />
+      <Class IRI="roślina" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="liść" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="isPartOf" />
+      <Class IRI="roślina" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pąk" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="isPartOf" />
+      <Class IRI="roślina" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="likes" />
+      <Class IRI="karma" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="eats" />
+      <Class IRI="trawa" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="człowiek" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="eats" />
+      <Class IRI="mięso" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="ptak" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="lays" />
+      <Class IRI="jajko" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="chłopiec" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="isA" />
+      <Class IRI="dziecko" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="dziewczynka" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="isA" />
+      <Class IRI="dziecko" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="dziecko" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="isA" />
+      <Class IRI="człowiek" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="dziecko" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="likes" />
+      <Class IRI="lizak" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="dziecko" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <Class IRI="matka" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="dziecko" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <Class IRI="ojciec" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="człowiek" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="isA" />
+      <Class IRI="rodzic" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="kot" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="likes" />
+      <Class IRI="mleko" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="kot" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="isA" />
+      <Class IRI="ssak" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="isA" />
+      <Class IRI="ssak" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="człowiek" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="likes" />
+      <Class IRI="owoc" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="człowiek" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="likes" />
+      <Class IRI="warzywo" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="kot" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="eats" />
+      <Class IRI="ryba" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="ptak" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="eats" />
+      <Class IRI="robak" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="kot" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="meowsAt" />
+      <Class IRI="mysz" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="barksAt" />
+      <Class IRI="intruz" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="roślina" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="absorbs" />
+      <Class IRI="woda" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="dziecko" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="likes" />
+      <ObjectUnionOf>
+        <Class IRI="batonik" />
+        <Class IRI="cukierek" />
+        <Class IRI="lizak" />
+        <Class IRI="lód" />
+      </ObjectUnionOf>
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="kot" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="likes" />
+      <ObjectUnionOf>
+        <Class IRI="karma" />
+        <Class IRI="kiełbaska" />
+        <Class IRI="mleko" />
+      </ObjectUnionOf>
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="cansDo" />
+      <ObjectUnionOf>
+        <Class IRI="gryzienie" />
+        <Class IRI="szczekanie" />
+        <Class IRI="wycie" />
+      </ObjectUnionOf>
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="ptak" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="dislikes" />
+      <ObjectUnionOf>
+        <Class IRI="larwa" />
+        <Class IRI="robak" />
+        <Class IRI="trawa" />
+      </ObjectUnionOf>
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="does" />
+      <ObjectUnionOf>
+        <Class IRI="jedzenie" />
+        <Class IRI="pilnowanie" />
+        <Class IRI="spanie" />
+        <Class IRI="szczekanie" />
+      </ObjectUnionOf>
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pracownik" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="does" />
+      <Class IRI="zakres%2Dobowiązków" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="uczeń" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="owns" />
+      <ObjectUnionOf>
+        <Class IRI="długopis" />
+        <Class IRI="gumka" />
+        <Class IRI="książka" />
+        <Class IRI="ołówek" />
+        <Class IRI="plecak" />
+        <Class IRI="zeszyt" />
+      </ObjectUnionOf>
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="dziecko" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="likes" />
+      <ObjectUnionOf>
+        <Class IRI="czekolada" />
+        <Class IRI="żelek" />
+        <Class IRI="wata%2Dcukrowa" />
+      </ObjectUnionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="uczeń" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="uses" />
+      <ObjectUnionOf>
+        <Class IRI="długopis" />
+        <Class IRI="podręcznik" />
+        <Class IRI="zeszyt" />
+      </ObjectUnionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="nauczyciel" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="gives" />
+      <ObjectUnionOf>
+        <Class IRI="kartkówka" />
+        <Class IRI="sprawdzian" />
+        <Class IRI="zadanie" />
+      </ObjectUnionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="finds" />
+      <ObjectUnionOf>
+        <Class IRI="kość" />
+        <Class IRI="patyk" />
+      </ObjectUnionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="ptak" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="builds" />
+      <ObjectUnionOf>
+        <Class IRI="gniazdo" />
+        <Class IRI="schronienie" />
+      </ObjectUnionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="dziecko" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="eats" />
+      <ObjectUnionOf>
+        <Class IRI="czekolada" />
+        <Class IRI="lizak" />
+        <Class IRI="popcorn" />
+      </ObjectUnionOf>
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="uczeń" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="carries" />
+      <ObjectUnionOf>
+        <Class IRI="piórnik" />
+        <Class IRI="plecak" />
+        <Class IRI="zeszyt" />
+      </ObjectUnionOf>
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="nauczyciel" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="grades" />
+      <ObjectUnionOf>
+        <Class IRI="kartkówka" />
+        <Class IRI="sprawdzian" />
+      </ObjectUnionOf>
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="playsWith" />
+      <ObjectUnionOf>
+        <Class IRI="kość" />
+        <Class IRI="patyk" />
+        <Class IRI="piłka" />
+      </ObjectUnionOf>
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="ptak" />
+    <ObjectAllValuesFrom>
+      <ObjectProperty IRI="drinks" />
+      <Class IRI="woda" />
+    </ObjectAllValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="jajko" />
+    <ObjectIntersectionOf>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="lays" />
+        </ObjectInverseOf>
+        <Class IRI="gęś" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="lays" />
+        </ObjectInverseOf>
+        <Class IRI="kaczka" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="lays" />
+        </ObjectInverseOf>
+        <Class IRI="kura" />
+      </ObjectSomeValuesFrom>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="karma" />
+    <ObjectIntersectionOf>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="eats" />
+        </ObjectInverseOf>
+        <Class IRI="chomik" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="eats" />
+        </ObjectInverseOf>
+        <Class IRI="kot" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="eats" />
+        </ObjectInverseOf>
+        <Class IRI="pies" />
+      </ObjectSomeValuesFrom>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="komputer" />
+    <ObjectIntersectionOf>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="uses" />
+        </ObjectInverseOf>
+        <Class IRI="nauczyciel" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="uses" />
+        </ObjectInverseOf>
+        <Class IRI="uczeń" />
+      </ObjectSomeValuesFrom>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="piłka" />
+    <ObjectIntersectionOf>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="playsWith" />
+        </ObjectInverseOf>
+        <Class IRI="dziecko" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="playsWith" />
+        </ObjectInverseOf>
+        <Class IRI="pies" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="playsWith" />
+        </ObjectInverseOf>
+        <Class IRI="sportowiec" />
+      </ObjectSomeValuesFrom>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="książka" />
+    <ObjectIntersectionOf>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="reads" />
+        </ObjectInverseOf>
+        <Class IRI="bibliotekarz" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="reads" />
+        </ObjectInverseOf>
+        <Class IRI="nauczyciel" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="reads" />
+        </ObjectInverseOf>
+        <Class IRI="uczeń" />
+      </ObjectSomeValuesFrom>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="rower" />
+    <ObjectIntersectionOf>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="repairs" />
+        </ObjectInverseOf>
+        <Class IRI="dziadek" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="repairs" />
+        </ObjectInverseOf>
+        <Class IRI="mechanik" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="repairs" />
+        </ObjectInverseOf>
+        <Class IRI="tata" />
+      </ObjectSomeValuesFrom>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="budynek" />
+    <ObjectIntersectionOf>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="designs" />
+        </ObjectInverseOf>
+        <Class IRI="architekt" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="designs" />
+        </ObjectInverseOf>
+        <Class IRI="inżynier" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectInverseOf>
+          <ObjectProperty IRI="designs" />
+        </ObjectInverseOf>
+        <Class IRI="projektant" />
+      </ObjectSomeValuesFrom>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <Class IRI="ogon" />
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <ObjectIntersectionOf>
+        <Class IRI="część" />
+        <ObjectComplementOf>
+          <Class IRI="ogon" />
+        </ObjectComplementOf>
+      </ObjectIntersectionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="rower" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <ObjectIntersectionOf>
+        <Class IRI="część" />
+        <Class IRI="koło" />
+        <ObjectSomeValuesFrom>
+          <ObjectProperty IRI="has" />
+          <ObjectIntersectionOf>
+            <Class IRI="część" />
+            <Class IRI="kierownica" />
+            <ObjectSomeValuesFrom>
+              <ObjectProperty IRI="has" />
+              <ObjectIntersectionOf>
+                <Class IRI="część" />
+                <Class IRI="siodełko" />
+              </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+          </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+      </ObjectIntersectionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="rower" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <ObjectIntersectionOf>
+        <Class IRI="część" />
+        <ObjectComplementOf>
+          <Class IRI="koło" />
+        </ObjectComplementOf>
+        <ObjectSomeValuesFrom>
+          <ObjectProperty IRI="has" />
+          <ObjectIntersectionOf>
+            <Class IRI="część" />
+            <ObjectComplementOf>
+              <Class IRI="kierownica" />
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+              <ObjectProperty IRI="has" />
+              <ObjectIntersectionOf>
+                <Class IRI="część" />
+                <ObjectComplementOf>
+                  <Class IRI="siodełko" />
+                </ObjectComplementOf>
+              </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+          </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+      </ObjectIntersectionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="człowiek" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <ObjectIntersectionOf>
+        <Class IRI="część" />
+        <Class IRI="głowa" />
+        <ObjectSomeValuesFrom>
+          <ObjectProperty IRI="has" />
+          <ObjectIntersectionOf>
+            <Class IRI="część" />
+            <Class IRI="noga" />
+            <ObjectSomeValuesFrom>
+              <ObjectProperty IRI="has" />
+              <ObjectIntersectionOf>
+                <Class IRI="część" />
+                <Class IRI="ręka" />
+              </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+          </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+      </ObjectIntersectionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="samochód" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <ObjectIntersectionOf>
+        <Class IRI="część" />
+        <Class IRI="silnik" />
+        <ObjectSomeValuesFrom>
+          <ObjectProperty IRI="has" />
+          <ObjectIntersectionOf>
+            <Class IRI="część" />
+            <Class IRI="koło" />
+            <ObjectSomeValuesFrom>
+              <ObjectProperty IRI="has" />
+              <ObjectIntersectionOf>
+                <Class IRI="część" />
+                <Class IRI="kierownica" />
+              </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+          </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+      </ObjectIntersectionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="komputer" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <ObjectIntersectionOf>
+        <Class IRI="komponent" />
+        <Class IRI="procesor" />
+        <ObjectSomeValuesFrom>
+          <ObjectProperty IRI="has" />
+          <ObjectIntersectionOf>
+            <Class IRI="komponent" />
+            <Class IRI="pamięć" />
+            <ObjectSomeValuesFrom>
+              <ObjectProperty IRI="has" />
+              <ObjectIntersectionOf>
+                <Class IRI="komponent" />
+                <Class IRI="karta%2Dgraficzna" />
+              </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+          </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+      </ObjectIntersectionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="dom" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <ObjectIntersectionOf>
+        <Class IRI="kuchnia" />
+        <Class IRI="pomieszczenie" />
+        <ObjectSomeValuesFrom>
+          <ObjectProperty IRI="has" />
+          <ObjectIntersectionOf>
+            <Class IRI="pomieszczenie" />
+            <Class IRI="salon" />
+            <ObjectSomeValuesFrom>
+              <ObjectProperty IRI="has" />
+              <ObjectIntersectionOf>
+                <Class IRI="pomieszczenie" />
+                <ObjectComplementOf>
+                  <Class IRI="kuchnia" />
+                </ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                  <ObjectProperty IRI="has" />
+                  <ObjectIntersectionOf>
+                    <Class IRI="pomieszczenie" />
+                    <ObjectComplementOf>
+                      <Class IRI="salon" />
+                    </ObjectComplementOf>
+                  </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+              </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+          </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+      </ObjectIntersectionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="komputer" />
+    <ObjectSomeValuesFrom>
+      <ObjectProperty IRI="has" />
+      <ObjectIntersectionOf>
+        <Class IRI="komponent" />
+        <ObjectComplementOf>
+          <Class IRI="procesor" />
+        </ObjectComplementOf>
+        <ObjectSomeValuesFrom>
+          <ObjectProperty IRI="has" />
+          <ObjectIntersectionOf>
+            <Class IRI="komponent" />
+            <ObjectComplementOf>
+              <Class IRI="pamięć" />
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+              <ObjectProperty IRI="has" />
+              <ObjectIntersectionOf>
+                <Class IRI="komponent" />
+                <ObjectComplementOf>
+                  <Class IRI="karta%2Dgraficzna" />
+                </ObjectComplementOf>
+              </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+          </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+      </ObjectIntersectionOf>
+    </ObjectSomeValuesFrom>
+  </SubClassOf>
+  <EquivalentClasses>
+    <Class IRI="chłopiec" />
+    <Class IRI="młody%2Dmeżczyzna" />
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="kundel" />
+    <Class IRI="pies" />
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="uczeń" />
+    <Class IRI="wychowanek" />
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="student" />
+    <Class IRI="uczeń" />
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="dziadek" />
+    <ObjectIntersectionOf>
+      <Class IRI="dorosły" />
+      <Class IRI="siwy" />
+      <Class IRI="stary" />
+      <Class IRI="płeć%2Dmęska" />
+    </ObjectIntersectionOf>
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="wrona" />
+    <ObjectIntersectionOf>
+      <Class IRI="czarne" />
+      <Class IRI="latające" />
+      <Class IRI="ptak" />
+    </ObjectIntersectionOf>
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="roślinożerca" />
+    <ObjectIntersectionOf>
+      <ObjectAllValuesFrom>
+        <ObjectProperty IRI="eats" />
+        <Class IRI="roślina" />
+      </ObjectAllValuesFrom>
+      <ObjectAllValuesFrom>
+        <ObjectProperty IRI="eats" />
+        <Class IRI="część%2Drośliny" />
+      </ObjectAllValuesFrom>
+    </ObjectIntersectionOf>
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="programista" />
+    <ObjectIntersectionOf>
+      <ObjectAllValuesFrom>
+        <ObjectProperty IRI="does" />
+        <Class IRI="pisanie%2Dprogramów" />
+      </ObjectAllValuesFrom>
+      <ObjectAllValuesFrom>
+        <ObjectProperty IRI="does" />
+        <Class IRI="testowanie%2Dprogramów" />
+      </ObjectAllValuesFrom>
+    </ObjectIntersectionOf>
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="matka" />
+    <ObjectIntersectionOf>
+      <Class IRI="kobieta" />
+      <Class IRI="rodzic" />
+    </ObjectIntersectionOf>
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="ojciec" />
+    <ObjectIntersectionOf>
+      <Class IRI="mężczyzna" />
+      <Class IRI="rodzic" />
+    </ObjectIntersectionOf>
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="rower" />
+    <ObjectIntersectionOf>
+      <ObjectSomeValuesFrom>
+        <ObjectProperty IRI="has" />
+        <Class IRI="kierownica" />
+      </ObjectSomeValuesFrom>
+      <ObjectSomeValuesFrom>
+        <ObjectProperty IRI="has" />
+        <Class IRI="koło" />
+      </ObjectSomeValuesFrom>
+    </ObjectIntersectionOf>
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="mięsożerca" />
+    <ObjectIntersectionOf>
+      <ObjectAllValuesFrom>
+        <ObjectProperty IRI="eats" />
+        <Class IRI="mięso" />
+      </ObjectAllValuesFrom>
+      <ObjectAllValuesFrom>
+        <ObjectProperty IRI="eats" />
+        <Class IRI="część%2Dzwierzęcia" />
+      </ObjectAllValuesFrom>
+    </ObjectIntersectionOf>
+  </EquivalentClasses>
+  <EquivalentClasses>
+    <Class IRI="artysta" />
+    <ObjectIntersectionOf>
+      <ObjectAllValuesFrom>
+        <ObjectProperty IRI="does" />
+        <Class IRI="malowanie" />
+      </ObjectAllValuesFrom>
+      <ObjectAllValuesFrom>
+        <ObjectProperty IRI="does" />
+        <Class IRI="rysowanie" />
+      </ObjectAllValuesFrom>
+      <ObjectAllValuesFrom>
+        <ObjectProperty IRI="does" />
+        <Class IRI="tworzenie%2Dsztuki" />
+      </ObjectAllValuesFrom>
+    </ObjectIntersectionOf>
+  </EquivalentClasses>
+  <SubClassOf>
+    <Class IRI="roślinożerca" />
+    <ObjectComplementOf>
+      <Class IRI="mięsożerca" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="człowiek" />
+    <ObjectComplementOf>
+      <Class IRI="zwierzę" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="ryba" />
+    <ObjectComplementOf>
+      <Class IRI="gad" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectComplementOf>
+      <Class IRI="ptak" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="mężczyzna" />
+    <ObjectComplementOf>
+      <Class IRI="kobieta" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="jabłko" />
+    <ObjectComplementOf>
+      <Class IRI="gruszka" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="kot" />
+    <ObjectComplementOf>
+      <Class IRI="pies" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="ptak" />
+    <ObjectComplementOf>
+      <Class IRI="ssak" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="nauczyciel" />
+    <ObjectComplementOf>
+      <Class IRI="uczeń" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="samochód" />
+    <ObjectComplementOf>
+      <Class IRI="rower" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="kobieta" />
+    <ObjectComplementOf>
+      <Class IRI="mężczyzna" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="jabłko" />
+    <ObjectComplementOf>
+      <Class IRI="banan" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="kot" />
+    <ObjectComplementOf>
+      <Class IRI="ptak" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pies" />
+    <ObjectComplementOf>
+      <Class IRI="kot" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="dzień" />
+    <ObjectComplementOf>
+      <Class IRI="noc" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="noc" />
+    <ObjectComplementOf>
+      <Class IRI="dzień" />
+    </ObjectComplementOf>
+  </SubClassOf>
+  <DisjointUnion>
+    <Class IRI="człowiek" />
+    <Class IRI="dziecko" />
+    <Class IRI="mężczyzna%2Dw%2Dśrednim%2Dwieku" />
+    <Class IRI="młody%2Dmężczyzna" />
+    <Class IRI="starszy%2Dmężczyzna" />
+  </DisjointUnion>
+  <DisjointUnion>
+    <Class IRI="jabłko" />
+    <Class IRI="papierówka" />
+    <Class IRI="reneta" />
+  </DisjointUnion>
+  <DisjointUnion>
+    <Class IRI="grzyb" />
+    <Class IRI="borowik" />
+    <Class IRI="kozak" />
+    <Class IRI="muchomor" />
+    <Class IRI="pieczarka" />
+    <Class IRI="podgrzybek" />
+  </DisjointUnion>
+  <DisjointUnion>
+    <Class IRI="informatyk" />
+    <Class IRI="programista" />
+    <Class IRI="sieciowiec" />
+    <Class IRI="systemowiec" />
+  </DisjointUnion>
+  <DisjointUnion>
+    <Class IRI="krewny" />
+    <Class IRI="babka" />
+    <Class IRI="brat" />
+    <Class IRI="ciotka" />
+    <Class IRI="córka" />
+    <Class IRI="dziadek" />
+    <Class IRI="kuzyn" />
+    <Class IRI="kuzynka" />
+    <Class IRI="matka" />
+    <Class IRI="ojciec" />
+    <Class IRI="siostra" />
+    <Class IRI="syn" />
+    <Class IRI="wujek" />
+  </DisjointUnion>
+  <DisjointUnion>
+    <Class IRI="owoc" />
+    <Class IRI="banan" />
+    <Class IRI="gruszka" />
+    <Class IRI="jabłko" />
+    <Class IRI="śliwka" />
+  </DisjointUnion>
+  <DisjointUnion>
+    <Class IRI="pojazd" />
+    <Class IRI="autobus" />
+    <Class IRI="motocykl" />
+    <Class IRI="rower" />
+    <Class IRI="samochód" />
+  </DisjointUnion>
+  <DisjointUnion>
+    <Class IRI="pomieszczenie" />
+    <Class IRI="kuchnia" />
+    <Class IRI="salon" />
+    <Class IRI="sypialnia" />
+    <Class IRI="łazienka" />
+  </DisjointUnion>
+  <DisjointUnion>
+    <Class IRI="nauczyciel" />
+    <Class IRI="korepetytor" />
+    <Class IRI="mentor" />
+    <Class IRI="trener" />
+    <Class IRI="wykładowca" />
+  </DisjointUnion>
+  <DisjointUnion>
+    <Class IRI="zabawka" />
+    <Class IRI="klocki" />
+    <Class IRI="lalka" />
+    <Class IRI="pluszak" />
+    <Class IRI="samochodzik" />
+    <Class IRI="gra%2Dplanszowa" />
+  </DisjointUnion>
+  <SubClassOf>
+    <Class IRI="ptak" />
+    <ObjectMinCardinality cardinality="2">
+      <ObjectProperty IRI="has" />
+      <Class IRI="skrzydło" />
+    </ObjectMinCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="ptak" />
+    <ObjectMaxCardinality cardinality="2">
+      <ObjectProperty IRI="has" />
+      <Class IRI="skrzydło" />
+    </ObjectMaxCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="ptak" />
+    <ObjectExactCardinality cardinality="2">
+      <ObjectProperty IRI="has" />
+      <Class IRI="skrzydło" />
+    </ObjectExactCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="człowiek" />
+    <ObjectIntersectionOf>
+      <ObjectExactCardinality cardinality="1">
+        <ObjectProperty IRI="has" />
+        <Class IRI="głowa" />
+      </ObjectExactCardinality>
+      <ObjectMaxCardinality cardinality="2">
+        <ObjectProperty IRI="has" />
+        <Class IRI="noga" />
+      </ObjectMaxCardinality>
+      <ObjectMaxCardinality cardinality="2">
+        <ObjectProperty IRI="has" />
+        <Class IRI="ręka" />
+      </ObjectMaxCardinality>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="jabłko" />
+    <ObjectIntersectionOf>
+      <ObjectMaxCardinality cardinality="1">
+        <ObjectProperty IRI="has" />
+        <Class IRI="ogonek" />
+      </ObjectMaxCardinality>
+      <ObjectMaxCardinality cardinality="6">
+        <ObjectProperty IRI="has" />
+        <Class IRI="pestka" />
+      </ObjectMaxCardinality>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="kij" />
+    <ObjectExactCardinality cardinality="2">
+      <ObjectProperty IRI="has" />
+      <Class IRI="koniec" />
+    </ObjectExactCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="ptak" />
+    <ObjectIntersectionOf>
+      <ObjectMinCardinality cardinality="10">
+        <ObjectProperty IRI="has" />
+        <Class IRI="pióro" />
+      </ObjectMinCardinality>
+      <ObjectExactCardinality cardinality="1">
+        <ObjectProperty IRI="has" />
+        <Class IRI="głowa" />
+      </ObjectExactCardinality>
+      <ObjectMaxCardinality cardinality="2">
+        <ObjectProperty IRI="has" />
+        <Class IRI="skrzydło" />
+      </ObjectMaxCardinality>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="uczeń" />
+    <ObjectIntersectionOf>
+      <ObjectMinCardinality cardinality="1">
+        <ObjectProperty IRI="has" />
+        <Class IRI="nauczyciel" />
+      </ObjectMinCardinality>
+      <ObjectMinCardinality cardinality="20">
+        <ObjectProperty IRI="has" />
+        <Class IRI="książka" />
+      </ObjectMinCardinality>
+      <ObjectMinCardinality cardinality="20">
+        <ObjectProperty IRI="has" />
+        <Class IRI="zeszyt" />
+      </ObjectMinCardinality>
+      <ObjectMaxCardinality cardinality="1">
+        <ObjectProperty IRI="has" />
+        <Class IRI="plecak" />
+      </ObjectMaxCardinality>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="samochód" />
+    <ObjectExactCardinality cardinality="4">
+      <ObjectProperty IRI="has" />
+      <Class IRI="koło" />
+    </ObjectExactCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="człowiek" />
+    <ObjectExactCardinality cardinality="1">
+      <ObjectProperty IRI="has" />
+      <Class IRI="serce" />
+    </ObjectExactCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="kot" />
+    <ObjectMaxCardinality cardinality="1">
+      <ObjectProperty IRI="has" />
+      <Class IRI="ogon" />
+    </ObjectMaxCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="komputer" />
+    <ObjectMinCardinality cardinality="2">
+      <ObjectProperty IRI="has" />
+      <Class IRI="port%2Dusb" />
+    </ObjectMinCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="uczeń" />
+    <ObjectExactCardinality cardinality="2">
+      <ObjectProperty IRI="has" />
+      <Class IRI="rodzic" />
+    </ObjectExactCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="książka" />
+    <ObjectMinCardinality cardinality="1">
+      <ObjectProperty IRI="has" />
+      <Class IRI="autor" />
+    </ObjectMinCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="pająk" />
+    <ObjectExactCardinality cardinality="8">
+      <ObjectProperty IRI="has" />
+      <Class IRI="noga" />
+    </ObjectExactCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="biedronka" />
+    <ObjectExactCardinality cardinality="6">
+      <ObjectProperty IRI="has" />
+      <Class IRI="noga" />
+    </ObjectExactCardinality>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="telefon" />
+    <ObjectIntersectionOf>
+      <ObjectMinCardinality cardinality="1">
+        <ObjectProperty IRI="has" />
+        <Class IRI="bateria" />
+      </ObjectMinCardinality>
+      <ObjectMaxCardinality cardinality="2">
+        <ObjectProperty IRI="has" />
+        <Class IRI="karta%2Dsim" />
+      </ObjectMaxCardinality>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+  <SubClassOf>
+    <Class IRI="rower" />
+    <ObjectIntersectionOf>
+      <ObjectExactCardinality cardinality="1">
+        <ObjectProperty IRI="has" />
+        <Class IRI="siodełko" />
+      </ObjectExactCardinality>
+      <ObjectExactCardinality cardinality="2">
+        <ObjectProperty IRI="has" />
+        <Class IRI="pedał" />
+      </ObjectExactCardinality>
+    </ObjectIntersectionOf>
+  </SubClassOf>
+</Ontology>
+<!--Generated by Cognitum FluentEditor2015, a part of Ontorion(TM) Knowledge Management Framework, (with support of OwlApi)-->
