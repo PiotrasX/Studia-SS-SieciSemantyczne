@@ -1,0 +1,143 @@
+﻿Numer przystanku;Lokalizacja przystanku;Szerokość geograficzna położenia przystanku;Długość geograficzna położenia przystanku;Nr linii autobusowej przypisanej do danego przystanku;Kierunek ruchu jazdy linii autobusowej - pełna nazwa ulicy;Biletomat;Tablice informacyjne;Aplikacje współpracujące;Typ przystanku;Zarządzajacy
+1;Dworzec PKP;52.80601;18.24487;3,4;Początkowy-Miasto;NIE;TAK;Mybus;ZWYKŁY;Miasto
+2;Dworzec PKP;52.80574;18.24475;110,16,28;Początkowy-Miasto;NIE;NIE;Mybus;ZWYKŁY;Miasto
+4;Dworcowa Grabskiego - kier. Kopernika;52.80477;18.24810;1,3,4,16,28;Kopernika;NIE;NIE;Mybus;ZWYKŁY;Powiat
+5;Kopernika Wawrzyniaka - kier. Narutowicza;52.80149;18.25036;1,3,4,10,16,21,27,28;Narutowicza;NIE;TAK;Mybus;ZWYKŁY;Powiat
+6;Kopernika Narutowicza - kier. Ratuszowa;52.79900;18.24901;1,3,4,10,16,21,27,28;Ratuszowa;TAK;TAK;Mybus;ZWYKŁY;Powiat
+7;Ratuszowa Solankowa - kier. Niepodległości;52.79559;18.24959;16,21,27,28;Niepodległości;NIE;TAK;Mybus;ZWYKŁY;Powiat
+8;Niepodległości Świętokrzyska - kier. Miechowicka;52.79185;18.25047;10,16,21,27,28;Miechowicka;NIE;TAK;Mybus;ZWYKŁY;Powiat
+9;Niepodległości Krzymińskiego - kier. Miechowicka;52.78832;18.25141;10,16,21,27,28;Miechowicka;NIE;NIE;Mybus;ZWYKŁY;Powiat
+10;Wojska Polskiego Niepodległości - kier. 800-lecia;52.78574;18.25193;10,16,20,21,28;800-lecia;NIE;NIE;Mybus;ZWYKŁY;Powiat
+11;Wojska Polskiego Piłsudskiego - kier. 800-lecia;52.78417;18.24730;10,16,20,21,28;800-lecia;NIE;NIE;Mybus;ZWYKŁY;Powiat
+12;Wojska Polskiego Popiełuszki - kier. 800-lecia;52.77996;18.24051;10,16,20,21,28;800-lecia;NIE;NIE;Mybus;ZWYKŁY;Powiat
+14;Wojska Polskiego Arctowskiego - kier. 800-lecia;52.77528;18.24125;10,16,20,21,28;800-lecia;NIE;NIE;Mybus;ZWYKŁY;Miasto
+15;800-lecia Wojska Polskiego - kier. 59 Pułku Piechoty;52.77330;18.24231;10,16,20,21,28;59 Pułku Piechoty;NIE;NIE;Mybus;ZWYKŁY;Miasto
+16;800-lecia 59 Pułku Piechoty - kier. Niepodległości;52.77307;18.24819;10,16,20,21,28;Niepodległości;NIE;TAK;Mybus;ZWYKŁY;Miasto
+17;800-lecia Niepodległości - kier. Wojska Polskiego;52.77314;18.24843;10,16,27,28;Wojska Polskiego;NIE;TAK;Mybus;ZWYKŁY;Miasto
+18;800-lecia Alejnika - kier. Woj. Polskiego;52.77331;18.24380;10,16,27,28;Wojska Polskiego;NIE;NIE;Mybus;ZWYKŁY;Miasto
+19;Wojska Polskiego Plater - kier. Niepodległości;52.77645;18.24133;10,16,27,28;Niepodległości;NIE;NIE;Mybus;ZWYKŁY;Miasto
+20;Wojska Polskiego Szarych Szeregów - kier. Niepodległości;52.78125;18.24129;10,16,27,28;Niepodległości;TAK;TAK;Mybus;ZWYKŁY;Powiat
+21;Wojska Polskiego Kusocińskiego - kier. Niepodległości;52.78451;18.24971;10,16,27,28;Niepodległości;NIE;TAK;Mybus;ZWYKŁY;Powiat
+22;Niepodległości Zapadłe - kier. Ratuszowa;52.78681;18.25293;10,16,21,27,28;Ratuszowa;NIE;TAK;Mybus;ZWYKŁY;Powiat
+23;Niepodległości Krzymińskiego - kier. Ratuszowa;52.78952;18.25134;10,16,21,27,28;Ratuszowa;NIE;TAK;Mybus;ZWYKŁY;Powiat
+24;Ratuszowa Solankowa - kier. Narutowicza;52.79573;18.24993;16,21,27,28;Narutowicza;NIE;TAK;Mybus;ZWYKŁY;Powiat
+25;Kopernika Narutowicza - kier. Dworcowa;52.79849;18.24941;1,3,4,10,16,21,27,28;Dworcowa;NIE;NIE;Mybus;ZWYKŁY;Powiat
+26;Kopernika Dworcowa - kier. Dworcowa;52.80135;18.25077;1,3,4,10,16,21,27,28;Dworcowa;TAK;TAK;Mybus;ZWYKŁY;Powiat
+27;Dworcowa Kopernika - kier. PKP;52.80257;18.25112;27;PKP;NIE;NIE;Mybus;ZWYKŁY;Powiat
+28;Dworcowa Metalowców - kier. PKP;52.80482;18.24851;1,3,4,16,28;PKP;NIE;NIE;Mybus;ZWYKŁY;Powiat
+29;Szklarska - dla wysiadających - kier. PKP;52.80727;18.24613;1,3,4,10,16,28;PKP;NIE;NIE;Mybus;N/Ż;Miasto
+31;Narutowicza Grodzka - kier. Staszica;52.79740;18.25403;1,3,4;Staszica;NIE;TAK;Mybus;ZWYKŁY;Powiat
+32;Wojska Polskiego kościół - kier. 800-lecia;52.78232;18.24184;10,16,20,21,28;800-lecia;NIE;TAK;Mybus;ZWYKŁY;Powiat
+33;Staszica  Narutowicza - kier. Poznańska;52.79840;18.25428;1,10,21;Poznańska;NIE;TAK;Mybus;ZWYKŁY;Powiat
+34;Staszica Świętokrzyska - kier. Poznańska;52.79178;18.25778;3,10,12;Poznańska;NIE;NIE;Mybus;ZWYKŁY;Powiat
+35;Poznańska Miechowicka - kier. Mątwy;52.78075;18.25977;3,10,12;Mątwy;NIE;TAK;Mybus;ZWYKŁY;Powiat
+36;Poznańska Wspólna - kier. Mątwy;52.77314;18.25876;3,12,16;Mątwy;NIE;NIE;Mybus;ZWYKŁY;Powiat
+37;Poznańska Przybyszewskiego - kier. Mątwy;52.76790;18.25799;3,12,16;Mątwy;NIE;NIE;Mybus;N/Ż;Powiat
+38;Poznańska Skryta - kier.  Mątwy;52.76231;18.25712;3,4,12,16;Mątwy;NIE;NIE;Mybus;ZWYKŁY;Powiat
+39;Poznańska Chemiczna - kier. Mątwy;52.75710;18.25649;3,4,12,16;Mątwy;NIE;NIE;Mybus;ZWYKŁY;Powiat
+40;Mątwy pętla;52.75319;18.25672;3,16;Początkowy-Miasto;TAK;TAK;Mybus;ZWYKŁY;Miasto
+41;Mątwy pętla;52.75314;18.25655;4,12;Początkowy-Miasto;NIE;NIE;Mybus;ZWYKŁY;Miasto
+43;Mątewska cmentarz - kier. Wielkopolska;52.75281;18.26357;12;Wielkopolska;NIE;NIE;Mybus;ZWYKŁY;Powiat
+45;Mątewska Starostwo Powiatowe - kier. Poznańska;52.75279;18.26282;12;Poznańska;NIE;NIE;Mybus;ZWYKŁY;Powiat
+46;Poznańska Polna - kier. Staszica;52.76167;18.25739;3,4,12,16;Staszica;NIE;NIE;Mybus;N/Ż;Powiat
+47;Poznańska Wiadukt - kier. Staszica;52.76800;18.25826;3,12,16;Staszica;NIE;NIE;Mybus;ZWYKŁY;Powiat
+48;Poznańska Nowa - kier. Staszica;52.77382;18.25911;3,12,16;Staszica;NIE;NIE;Mybus;ZWYKŁY;Powiat
+49;Poznańska Szpital - kier. Staszica;52.78163;18.26023;3,10,12,20;Staszica;TAK;TAK;Mybus;ZWYKŁY;Powiat
+50;Staszica Kościół - kier. Dworcowa;52.79312;18.25804;3,4,10;Dworcowa;NIE;NIE;Mybus;ZWYKŁY;Powiat
+51;Staszica 6-go Stycznia - kier. Dworcowa;52.79599;18.25579;3,4,10,21;Dworcowa;NIE;NIE;Mybus;ZWYKŁY;Powiat
+53;Dworcowa Kasprowicza - kier. Laubitza;52.80095;18.25313;21,27;Laubitza;NIE;TAK;Mybus;ZWYKŁY;Powiat
+55;Jacewska Toruńska - kier. Działowa;52.79975;18.26530;1,12,27;Działowa;NIE;NIE;Mybus;ZWYKŁY;Powiat
+56;Św. Ducha Działowa - kier. Krzywoustego;52.79634;18.27507;12,20,27;Krzywoustego;NIE;NIE;Mybus;ZWYKŁY;Powiat
+57;Długa Św. Ducha - kier Jacewska;52.79587;18.28147;1;Jacewska;NIE;NIE;Mybus;N/Ż;Miasto
+60;Św. Ducha Długa - kier. Krzywoustego;52.79567;18.28096;1,12;Krzywoustego;NIE;NIE;Mybus;N/Ż;Powiat
+61;Krzywoustego Św. Ducha - kier. Jagiellońska;52.79480;18.27681;12,20,27;Jagiellońska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+62;Krzywoustego Jagiellońska - kier. Ziarniaka;52.79229;18.27737;12,20,27;Ziarniaka;NIE;NIE;Mybus;ZWYKŁY;Miasto
+63;Krzywoustego Czarnieckiego - kier. Św. Ducha;52.79373;18.27723;12,20,27;Św. Ducha;NIE;TAK;Mybus;ZWYKŁY;Miasto
+64;Św. Ducha Glinki - kier. Jacewska;52.79642;18.27575;1,12,20,27;Jacewska;NIE;NIE;Mybus;ZWYKŁY;Powiat
+65;Jacewska Os. Toruńskie - kier. Toruńska;52.79894;18.26824;1,12,27;Toruńska;NIE;TAK;Mybus;ZWYKŁY;Powiat
+66;Toruńska Jacewska - kier. Toruń;52.80133;18.26669;10,12;Toruńska;NIE;NIE;Mybus;ZWYKŁY;Powiat
+67;Toruńska Curie-Skłodowskiej - kier. Toruń;52.80489;18.27171;10,12;Toruńska;NIE;NIE;Mybus;N/Ż;Powiat
+68;Toruńska pętla;52.80786;18.27562;10,12;Początkowy-Miasto;NIE;NIE;Mybus;ZWYKŁY;Miasto
+70;Toruńska Młyńska - kier. Laubitza;52.80331;18.26920;10,12;Laubitza;NIE;NIE;Mybus;ZWYKŁY;Powiat
+71;Laubitza Orłowska - kier. Dworcowa;52.79982;18.26285;1,10,27;Dworcowa;NIE;TAK;Mybus;ZWYKŁY;Powiat
+74;Świętokrzyska Poznańska - kier. Marulewska;52.79289;18.26114;4,10,12,21;Marulewska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+75;Świętokrzyska Poznańska - kier. Staszica;52.79293;18.26077;4,10,12,21;Staszica;NIE;NIE;Mybus;ZWYKŁY;Miasto
+76;Cegielna Marulewska - kier. Łokietka;52.79290;18.26634;1,4,12,20,21;Łokietka;NIE;NIE;Mybus;ZWYKŁY;Miasto
+77;Cegielna Łokietka - kier. Marulewska;52.79298;18.26621;1,4,12,20,21;Marulewska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+78;Cegielna Św. Ducha - kier. Marulewska;52.79569;18.26915;1,12,20;Marulewska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+79;Cegielna Mieszka I - kier. Św. Ducha;52.79568;18.26947;1,12,20;Św. Ducha;NIE;NIE;Mybus;N/Ż;Miasto
+80;Łokietka początkowy;52.79392;18.27135;1,4,12,20,21;Początkowy-Miasto;NIE;TAK;Mybus;ZWYKŁY;Miasto
+81;Szymborska Górnicza - kier. Szymborze;52.79093;18.26470;4,20;Szymborze;NIE;NIE;Mybus;N/Ż;Miasto
+82;Szymborska Batorego - kier. Marulewska;52.79106;18.26489;4,20;Marulewska;NIE;NIE;Mybus;N/Ż;Miasto
+83;Szymborska Gronowa - kier. Szymborze;52.78469;18.26779;4,20;Szymborze;NIE;NIE;Mybus;ZWYKŁY;Miasto
+84;Szymborska Chrobrego - kier. Marulewska;52.78544;18.26761;4,20;Marulewska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+85;Szymborska Miechowicka - kier. Szymborze;52.77769;18.27265;4,12;Szymborze;NIE;NIE;Mybus;N/Ż;Miasto
+86;Szymborska Miechowicka - kier. Marulewska;52.77872;18.27237;4,12,20;Marulewska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+89;Szymborska Transportowca - kier. Szymborze;52.77069;18.27555;4,12;Szymborze;NIE;NIE;Mybus;N/Ż;Miasto
+90;Szymborska Transportowca - kier. Marulewska;52.77080;18.27584;4,12;Marulewska;NIE;NIE;Mybus;N/Ż;Miasto
+91;Szymborska Reymonta - kier. Szymborze;52.76812;18.27624;4,12;Szymborze;NIE;NIE;Mybus;N/Ż;Miasto
+92;Szymborska Reymonta - kier. Marulewska;52.76800;18.27674;4,12;Marulewska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+93;Przybyszewskiego Wielkopolska - kier. Poznańska;52.76553;18.27554;4;Poznańska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+95;Przybyszewskiego Kolejowa - kier. Poznańska;52.76532;18.26667;4;Poznańska;NIE;NIE;Mybus;N/Ż;Miasto
+96;Przybyszewskiego Kolejowa - kier. Szymborska;52.76517;18.26634;4;Szymborska;NIE;NIE;Mybus;N/Ż;Miasto
+97;Marulewska Jagiełły - kier. Cegielna;52.79156;18.26823;1,10;Cegielna;NIE;NIE;Mybus;ZWYKŁY;Miasto
+99;Łokietka pawilon handlowy;52.79427;18.27283;1,2;Początkowy-Miasto;NIE;NIE;Mybus;ZWYKŁY;Miasto
+137;Szosa Bydgoska działki;52.81740;18.23366;1,16;Początkowy-Miasto;NIE;NIE;Mybus;ZWYKŁY;Działki Szosa Bydg.
+140;Osiedle Bydgoskie - kier. Sławęcinek i PKP;52.81165;18.23952;1,16;Sławęcinek i PKP;NIE;NIE;Mybus;ZWYKŁY;Miasto
+141;Narutowicza Konopnickiej - kier. Magazynowa;52.79786;18.24721;10;Magazynowa;NIE;NIE;Mybus;ZWYKŁY;Miasto
+142;Narutowicza Konopnickiej - kier. Kopernika;52.79776;18.24685;10;Kopernika;NIE;NIE;Mybus;ZWYKŁY;Miasto
+144;Narutowicza Powstańców - kier. Kopernika;52.79721;18.24086;10;Kopernika;NIE;NIE;Mybus;ZWYKŁY;Miasto
+145;Narutowicza Boczna - kier. Tężnie;52.79702;18.23758;10;Tężnie;NIE;NIE;Mybus;ZWYKŁY;Miasto
+157;Marulewska Sobieskiego - kier. cmentarz;52.79124;18.26852;1,10;cmentarz;NIE;NIE;Mybus;N/Ż;Miasto
+158;Marulewska Kasztanowa - kier. cmentarz;52.78998;18.27194;1,10;cmentarz;NIE;NIE;Mybus;N/Ż;Miasto
+159;Marulewska Lipowa - kier. Cegielna;52.78977;18.27260;1,10;Cegielna;NIE;NIE;Mybus;ZWYKŁY;Miasto
+160;Marulewska pętla;52.78757;18.27782;1,10;Początkowy-Miasto;NIE;NIE;Mybus;ZWYKŁY;Miasto
+163;Niepodległości Wojska Polskiego - kier. Miechowicka;52.78499;18.25320;27;Początkowy-Miasto;NIE;NIE;Mybus;ZWYKŁY;Powiat
+164;Niepodległości Kusocińskiego - kier. 800-lecia;52.78110;18.25515;27;800-lecia;NIE;NIE;Mybus;ZWYKŁY;Powiat
+165;Niepodległości Miechowicka - kier. Ratuszowa;52.78074;18.25574;21;Ratuszowa;NIE;NIE;Mybus;ZWYKŁY;Powiat
+166;Miechowicka Niepodległości - kier. Poznańska;52.77948;18.25746;10,16,20;Poznańska;NIE;NIE;Mybus;ZWYKŁY;Powiat
+167;Miechowicka Poznańska - kier. Niepodległości;52.77951;18.25869;10,16;Niepodległości;NIE;NIE;Mybus;ZWYKŁY;Powiat
+168;Ratuszowa Świętokrzyska - kier. Narutowicza;52.79310;18.25051;16,21,27,28;Narutowicza;NIE;TAK;Mybus;ZWYKŁY;Powiat
+170;Glempa Staszica - kier. Woj. Polskiego;52.78806;18.26023;20;Woj. Polskiego;NIE;NIE;Mybus;ZWYKŁY;Miasto
+171;Poznańska Maćkowskiego;52.75409;18.25607;Dla wysiadających;Końcowy;NIE;NIE;Mybus;ZWYKŁY;Powiat
+172;Dworzec PKP końcowy;52.80644;18.24474;Dla wysiadających;Końcowy;NIE;NIE;Mybus;ZWYKŁY;Miasto
+176;Marcinkowskiego Cmentarna - kier. Kasprowicza;52.80551;18.25886;1,10;Kasprowicza;NIE;NIE;Mybus;ZWYKŁY;Powiat
+177;Marcinkowskiego Młyńska - kier. Metalowców;52.80432;18.25924;1,10;Metalowców;NIE;NIE;Mybus;ZWYKŁY;Powiat
+182;Niepodległości Miłosza - kier. Miechowicka;52.77638;18.25423;10,16,20,21;Miechowicka;NIE;TAK;Mybus;ZWYKŁY;Powiat
+183;Niepodległości Błażka - kier. 800-lecia;52.77494;18.25342;10,16,27;800-lecia;NIE;NIE;Mybus;ZWYKŁY;Powiat
+184;Wilkońskiego Solankowa - kier. Świętokrzyska;52.79418;18.24393;10;Świętokrzyska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+185;Wilkońskiego Świętokrzyska - kier. Narutowicza;52.79365;18.24406;10;Narutowicza;NIE;NIE;Mybus;ZWYKŁY;Miasto
+187;Poznańska Gwarków - kier. Mątwy;52.78325;18.26016;3,10,12;Mątwy;NIE;NIE;Mybus;N/Ż;Powiat
+189;Jacewska Długa - kier. Toruńska;52.79706;18.28128;1;Toruńska;NIE;NIE;Mybus;N/Ż;Powiat
+190;Łokietka końcowy;52.79396;18.27253;21;Końcowy;NIE;NIE;Mybus;ZWYKŁY;Miasto
+191;Jacewska Glinki - kier. Długa;52.79710;18.27935;1,12;Długa;NIE;NIE;Mybus;N/Ż;Powiat
+192;Niepodległości 800-lecia - kier. Miechowicka;52.77265;18.25193;10,16,20,21;Miechowicka;NIE;NIE;Mybus;N/Ż;Powiat
+193;Dworcowa Laubitza - kier. PKP;52.80003;18.25528;21,27;PKP;TAK;TAK;Mybus;ZWYKŁY;Powiat
+194;Laubitza Dworcowa - kier. Toruńska;52.79939;18.25725;1,10,27;Toruńska;NIE;TAK;Mybus;ZWYKŁY;Powiat
+196;Poznańska Górnicza - kier. Staszica;52.78853;18.26052;3,10,12;Staszica;NIE;NIE;Mybus;ZWYKŁY;Powiat
+197;Poznańska Staszica - kier. Mątwy;52.78771;18.26071;3,10,12;Mątwy;NIE;NIE;Mybus;ZWYKŁY;Powiat
+198;Górnicza Poznańska - kier. Szymborska;52.78816;18.26175;10;Szymborska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+200;Szybowcowa Szenica - kier. Toruńska;52.80688;18.27015;10;Toruńska;NIE;NIE;Mybus;N/Ż;Miasto
+211;Deszczowa Torowa ZEC;52.76894;18.23707;28;PKP;NIE;NIE;Mybus;ZWYKŁY;Miasto
+214;Świętokrzyska Wierzbińskiego - kier. Wilkońskiego;52.79264;18.24898;10;Wilkońskiego;NIE;NIE;Mybus;N/Ż;Miasto
+215;Wilkońskiego Sienkiewicza - kier. Świętokrzyska;52.79642;18.24293;10;Świętokrzyska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+216;Wilkońskiego Narutowicza - kier. Narutowicza;52.79623;18.24310;10;Narutowicza;NIE;NIE;Mybus;ZWYKŁY;Miasto
+226;Metalowców Libelta - kier. Marcinkowskiego;52.80710;18.25155;1,10;Marcinkowskiego;NIE;NIE;Mybus;N/Ż;Miasto
+227;Metalowców Libelta - kier. Dworcowa;52.80673;18.25041;1,10;Dworcowa;NIE;NIE;Mybus;N/Ż;Miasto
+228;Marcinkowskiego Metalowców - kier. Dworcowa;52.80857;18.25757;1,10;Dworcowa;NIE;NIE;Mybus;N/Ż;Powiat
+229;Marcinkowskiego Metalowców - kier. Kasprowicza;52.80768;18.25778;1,10;Kasprowicza;NIE;NIE;Mybus;N/Ż;Powiat
+235;Staropoznańska Budowlana - kier. 800-lecia;52.76918;18.25197;28;800-lecia;NIE;NIE;Mybus;ZWYKŁY;Miasto
+236;Staropoznańska Budowlana - kier. Popowicka;52.76872;18.25169;28;Popowicka;NIE;NIE;Mybus;ZWYKŁY;Miasto
+238;Przybyszewskiego Pogodna - kier. Poznańska;52.76616;18.25916;4;Poznańska;NIE;NIE;Mybus;N/Ż;Miasto
+239;Przybyszewskiego Pogodna - kier. Szymborska;52.76608;18.25868;4;Szymborska;NIE;NIE;Mybus;N/Ż;Miasto
+245;Wielkopolska Przybyszewskiego - kier. Mątewska;52.76528;18.27672;12;Mątewska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+246;Wielkopolska Dybalskiego - kier. Szymborska;52.76517;18.27728;4,12;Szymborska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+247;Wielkopolska Mątewska - kier. Mątewska;52.75413;18.28455;12;Mątewska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+248;Wielkopolska Mątewska - kier. Szymborska;52.75414;18.28484;12;Szymborska;NIE;NIE;Mybus;ZWYKŁY;Miasto
+249;Mątewska Wiejska - kier. Poznańska;52.75310;18.27325;12;Poznańska;NIE;NIE;Mybus;N/Ż;Powiat
+250;Mątewska Pokojowa - kier. Wielkopolska;52.75299;18.27329;12;Wielkopolska;NIE;NIE;Mybus;ZWYKŁY;Powiat
+251;Miechowicka działki - kier. Szymborska;52.77888;18.26467;12,20;Szymborska;NIE;NIE;Mybus;N/Ż;Miasto
+252;Miechowicka szpital - kier. Poznańska;52.77897;18.26442;20;Poznańska;NIE;NIE;Mybus;N/Ż;Miasto
+253;Wielkopolska cmentarz - kier. Mątewska;52.76145;18.28016;12;Mątewska;NIE;NIE;Mybus;N/Ż;Miasto
+254;Wielkopolska cmentarz - kier. Szymborska;52.76168;18.28034;12;Szymborska;NIE;NIE;Mybus;N/Ż;Miasto
+255;Ziarniaka - kier. Czarnieckiego;52.79245;18.27487;12;Końcowy;NIE;NIE;Mybus;ZWYKŁY;Miasto
