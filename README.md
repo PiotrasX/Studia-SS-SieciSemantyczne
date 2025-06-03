@@ -1,2 +1,2 @@
-# Studia-SS-SieciSemantyczne
-Opis głowny
+# Studia - SS - Sieci Semantyczne  
+Opis 1  
