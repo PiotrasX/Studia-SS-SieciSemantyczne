@@ -8,34 +8,29 @@ Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Sieci 
 
 ## 📁 Struktura repozytorium
 
-- `Zadania` – Projekt wykonywany podczas zajęć dydaktycznych oraz samodzielnie. Obejmuje on dokumentowanie i modelowanie systemu informatycznego przy użyciu notacji UML.  
+- `Zadania` – Zadania realizowane podczas zajęć oraz samodzielnie. Obejmują zagadnienia związane z tworzeniem baz grafowych w języku Cypher oraz projektowaniem ontologii i reprezentacją wiedzy przy użyciu języka OWL.  
 
 ---
 
 ## ⚙️ Wykorzystane technologie
 
-- `Język programowania:` UML.  
-- `IDE:` Software Ideas Modeler.  
+- `Język programowania:` Cypher, OWL, RDF, CNL (Controlled Natural Language).  
+- `IDE:` Neo4j Desktop, Ontorion Fluent Editor 2015, Protégé 5.6.5.  
 
 ---
 
 ## 🔍 Zakres tematyczny
 
-- Modelowanie systemu informatycznego:  
-  - Projektowanie i dokumentowanie architektury systemu.  
-  - Tworzenie diagramów:  
-    -  Przypadków użycia.  
-    -  Aktywności.  
-    -  Wymagań.  
-    -  Klas.  
-    -  Sekwencji.  
-    -  Stanów.  
-- Dokumentacja systemu:  
-  - Specyfikacja wymagań funkcjonalnych i niefunkcjonalnych.  
-  - Scenariusze przypadków użycia.  
-  - Specyfikacja techniczna.  
-- Projektowanie interfejsu użytkownika:  
-  - Tworzenie UI z uwzględnieniem wzorców projektowych i zasad użyteczności.  
+- Operacje na grafach semantycznych:  
+  - Tworzenie baz grafowych.  
+  - Wnioskowanie i eksploracja wiedzy.  
+  - Wizualizacja oraz wykonywanie zapytań w bazach grafowych.  
+- Modelowanie ontologii i reprezentacja wiedzy:  
+  - Tworzenie prostej ontologii w Protégé.  
+  - Korzystanie z języka CNL w Fluent Editor.  
+- Wykorzystanie języków zapytań:  
+  - Cypher w kontekście baz grafowych.  
+  - SPARQL w kontekście zapytań semantycznych.  
 
 ---
 
